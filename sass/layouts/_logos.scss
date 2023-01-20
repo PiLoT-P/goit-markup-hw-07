@@ -2,29 +2,29 @@
     display: flex;
     margin: 0px;
     padding: 0px;
-}
 
-.list-logo .link {
-    display: block;
-    padding: 16px 32px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    transition: border-color var(--transition-property), color var(--transition-property);
+    .link {
+        display: block;
+        padding: 16px 32px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        transition: border-color var(--transition-property), color var(--transition-property);
 
-    color: var(--icon-color);
+        color: var(--icon-color);
 
-}
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
 
-.list-logo .link:hover,
-.list-logo .link:focus {
-    border-color: var(--accent-color);
-    color: var(--accent-color);
-}
+    }
 
-.list-logo .item:not(:last-child) {
-    margin-right: 30px;
-}
+    .item:not(:last-child) {
+        margin-right: 30px;
+    }
 
-.list-logo .icon {
-    fill: currentColor;
+    .icon {
+        fill: currentColor;
+    }
 }
