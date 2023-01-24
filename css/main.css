@@ -551,6 +551,30 @@ body {
 .subscribe-input:focus {
   border-color: var(--accent-color);
 }
+.subscribe-input::-moz-placeholder {
+  color: var(--footer-link-collor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+.subscribe-input:-ms-input-placeholder {
+  color: var(--footer-link-collor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+.subscribe-input::placeholder {
+  color: var(--footer-link-collor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
 
 .subscribe-button {
   display: flex;

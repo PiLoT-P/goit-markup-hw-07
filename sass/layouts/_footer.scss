@@ -145,6 +145,15 @@
     &:focus {
         border-color: var(--accent-color);
     }
+    &::placeholder{
+        color: var(--footer-link-collor);
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+    }
 }
 
 .subscribe-button {
