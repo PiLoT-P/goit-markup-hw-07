@@ -3,7 +3,7 @@
     padding: 0px;
     display: flex;
 
-    .item {
+    .features-list__item {
         width: calc((100% - 90px) / 4);
         margin-right: 30px;
 
@@ -12,7 +12,7 @@
         }
     }
 
-    .title {
+    .features-list__title {
         margin-top: 0px;
         margin-bottom: 10px;
 
@@ -23,13 +23,13 @@
         text-transform: uppercase;
     }
 
-    .text {
+    .features-list__text {
         margin: 0px;
 
         line-height: 1.71;
     }
 
-    .features-icon {
+    .features-list__icon {
         display: flex;
         align-items: center;
         justify-content: center;

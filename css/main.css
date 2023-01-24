@@ -45,7 +45,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.site-nav,
+.menu,
 .contacts,
 .features-list,
 .img-list,
@@ -310,7 +310,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.hero-title {
+.hero__title {
   width: 696px;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -323,7 +323,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero-button {
+.hero__button {
   border: 1px solid transparent;
   padding: 10px 32px;
   display: inline-block;
@@ -356,18 +356,18 @@ body {
   color: var(--accent-color);
 }
 
-.main-nav {
+.main-nav__container {
   display: flex;
   align-items: center;
 }
 
-.site-nav {
+.menu {
   margin: 0px;
   padding: 0px;
   display: flex;
   margin-left: 93px;
 }
-.site-nav .link {
+.menu .menu__link {
   position: relative;
   display: inline-block;
   padding-top: 32px;
@@ -379,16 +379,16 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:hover, .site-nav .link:focus {
+.menu .menu__link:hover, .menu .menu__link:focus {
   color: var(--accent-color);
 }
-.site-nav .item:not(:last-child) {
+.menu .menu__item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav .link.current {
+.menu .menu__link.current {
   color: var(--accent-color);
 }
-.site-nav .link.current::after {
+.menu .menu__link.current::after {
   content: " ";
   position: absolute;
   width: 100%;
@@ -405,7 +405,7 @@ body {
   padding: 0px;
   margin-left: auto;
 }
-.contacts .link {
+.contacts .contacts__link {
   display: flex;
   align-items: center;
   transition: color var(--transition-property);
@@ -415,14 +415,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contacts .link:hover, .contacts .link:focus {
+.contacts .contacts__link:hover, .contacts .contacts__link:focus {
   color: var(--accent-color);
 }
-.contacts .item {
+.contacts .contacts__item {
   display: flex;
   align-items: center;
 }
-.contacts .item:not(:last-child) {
+.contacts .contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts .email-text,
@@ -649,14 +649,14 @@ body {
   padding: 0px;
   display: flex;
 }
-.features-list .item {
+.features-list .features-list__item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
-.features-list .item:last-child {
+.features-list .features-list__item:last-child {
   margin-right: 0px;
 }
-.features-list .title {
+.features-list .features-list__title {
   margin-top: 0px;
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -664,11 +664,11 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-list .text {
+.features-list .features-list__text {
   margin: 0px;
   line-height: 1.71;
 }
-.features-list .features-icon {
+.features-list .features-list__icon {
   display: flex;
   align-items: center;
   justify-content: center;
