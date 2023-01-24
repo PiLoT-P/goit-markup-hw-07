@@ -454,6 +454,7 @@ body {
   transition: color var(--transition-property);
   text-decoration: none;
   color: var(--footer-link-collor);
+  line-height: 1.71;
 }
 .footer-contacts .link:hover, .footer-contacts .link:focus {
   color: var(--accent-color);
@@ -573,6 +574,9 @@ body {
 .subscribe-button .button-img {
   margin-left: 10px;
   fill: var(--white);
+}
+.subscribe-button:hover {
+  cursor: pointer;
 }
 
 .list-logo {

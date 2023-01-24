@@ -22,6 +22,7 @@
             transition: color var(--transition-property);
             text-decoration: none;
             color: var(--footer-link-collor);
+            line-height: 1.71;
 
             &:hover,
             &:focus {
@@ -170,5 +171,8 @@
     .button-img {
         margin-left: 10px;
         fill: var(--white);
+    }
+    &:hover{
+        cursor: pointer;
     }
 }
